@@ -76,7 +76,8 @@
 					$tanggal_bayar = date("Y-m-d");
 					// biaya_admin
 					$status = 'sudah bayar';
-
+					
+						// perintah untuk input data ke database
 					$odb->insert("penggunaan", "'', '$id_pelanggan', '$bulan', '$tahun' ,'$meter_awal', '$meter_akhir', '$tanggal_bayar', '$biaya_admin', '$status'");
 				?>
 
